@@ -9,7 +9,7 @@ public class MostrarDirectorios {
      */
     public static void main(String[] args) {
 
-        File ruta = new File("C:\\Users\\alumno\\Documents\\Clase\\IDE\\NetBeans\\Archivos");
+        File ruta = new File("C:\\Users\\alumno\\Documents\\Clase\\IDE\\Archivos");
         
         System.out.println(ruta.getAbsolutePath());
         
