@@ -2,7 +2,7 @@ package Files;
 
 import java.io.File;
 
-public class AFiles {
+public class MostrarDirectorios {
 
     /**
      * @param args the command line arguments

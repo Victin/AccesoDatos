@@ -3,7 +3,7 @@ package Files;
 import java.io.File;
 import java.io.IOException;
 
-public class AFiles2 {
+public class Principal {
 
     /**
      * @param args the command line arguments
