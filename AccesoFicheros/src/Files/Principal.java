@@ -21,7 +21,7 @@ public class Principal {
        esc.escribir("C:\\Users\\alumno\\Documents\\Clase\\IDE\\Archivos\\archivo1.txt","Soy una frase");
        
         System.out.println("Se ha escrito en el fichero");
-        
+      
     }
     
 }

@@ -23,11 +23,5 @@ public class MostrarDirectorios {
                     System.out.println(e);
             }
         }
-        
-        
-        
-        
-        
     }
-    
 }

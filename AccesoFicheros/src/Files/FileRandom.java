@@ -39,6 +39,7 @@ public class FileRandom {
 			String texto = fichero.readLine();
 			System.out.print(texto);
 		}
+		fichero.close();
 		
 	}
 
