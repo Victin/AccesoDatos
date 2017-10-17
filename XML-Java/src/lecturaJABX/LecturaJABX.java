@@ -20,8 +20,11 @@ public class LecturaJABX {
 			System.out.println("Nombre: " + libreria.getNombre());
 			
 			ArrayList<Libro> libros = libreria.getLibros();
-			for(Libro e: libros)
-				System.out.println("ISBN: " + e.getISBN() + " -Titulo: " + e.getTitulo() + " -Autor: " + e.getAutor());
+			for(Libro e: libros) {
+				System.out.println("ISBN: " + e.getISBN());
+				System.out.println(" -Titulo: " + e.getTitulo());
+				System.out.println(" -Autor: " + e.getAutor());
+			}
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		} 
