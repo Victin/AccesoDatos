@@ -38,6 +38,5 @@ public class EscribirSinEspacios {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
 	}
 }
