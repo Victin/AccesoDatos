@@ -17,13 +17,15 @@ public class LecturaJABX {
 			Libreria libreria = (Libreria) unmarshaller.unmarshal(new File("libreria.xml")); //Recibe un fichero XML
 			//Devuelve el objeto con toda la informacion XML(toda la libreria), por eso se crea el objeto Libreria libreria
 			
-			System.out.println("Nombre: " + libreria.getNombre());
+			System.out.println("Nombre de la libreria: " + libreria.getNombre());
+			System.out.println("------------------------");
 			
 			ArrayList<Libro> libros = libreria.getLibros();
 			for(Libro e: libros) {
 				System.out.println("ISBN: " + e.getISBN());
-				System.out.println(" -Titulo: " + e.getTitulo());
-				System.out.println(" -Autor: " + e.getAutor());
+				System.out.println("Titulo: " + e.getTitulo());
+				System.out.println("Autor: " + e.getAutor());
+				System.out.println("------------------------");
 			}
 		} catch (JAXBException e) {
 			e.printStackTrace();
